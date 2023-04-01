@@ -1,0 +1,62 @@
+body,* {
+    font-family: 'Roboto', sans-serif;
+    background:#eeeeee;
+ }
+
+.rekomendasi {
+
+}
+
+.rekomendasi .logo {
+
+    font-size: 20px;
+    margin-right:10px ;
+}
+
+ nav ul {
+    margin: 0;
+    padding: 0;
+ }
+ nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 100px;
+ }
+ nav ul li a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 14px 20px;
+    color: navy;
+    background-color: #ffba93;
+    border-radius: 5px;
+ }
+ nav ul li a:hover {
+    display: flex;
+    color : #fff;
+    background-color: #213df3;
+ }
+
+.box-mobil{
+   display: flex;
+}
+
+.mobil{
+   display: flex;
+   padding: 20px;
+}
+
+.foto {
+   margin: 30px;
+   padding: 20px;
+   border: solid;
+   width: 200px;
+}
+
+.foto img {
+   width: 200px;
+}
+
+.foto .bintang{
+   display: flex;
+   flex-direction: row;
+}

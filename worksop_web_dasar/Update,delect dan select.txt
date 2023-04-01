@@ -1,0 +1,45 @@
+NAMA : NISAUL FITRI
+KELAS: TI 1C 
+NIM  Sssss: 2022573010034
+
+1.) Update fungsinya untuk memperbaiki data.
+
+    a.)UPDATE tbanggota SET jk='p'WHERE nama='nisaul fitri';
+      ( memperbaiki data "jk" pada Tbanggota)
+    b.)UPDATE tbjenisanggota SET pjmperhari = '7' WHERE idjenisanggota= '22';
+      (memperbaiki data "pjmperhari" pada Tbanggota)
+    c.)UPDATE tbkoleksi SET dendaperhari  = '10' WHERE idtipekoleksi= '130';
+      (memperbaiki data "dendaperhari" pada Tbanggota)
+    d.)UPDATE tbpeminjaman SET tglharuskembali  = '11' WHERE tglkembali= '17';
+      (Memperbaiki data "tglharuskembali" pada Tbanggota)
+    e.)UPDATE tbpenerbit SET alamat  = 'Bali' WHERE telepon= '0820117643';
+	(Memperbaiki data "alamat" pada Tbanggota).
+
+2.) Select fungsinya untuk menampilkan data.
+
+    a.) SELECT * FROM `tbpengarang` nama;
+      (Menampilkan data "nama" pada tbpengarang)
+    b.) SELECT * FROM `tbpeminjaman` tglkembali;
+      (Menampilkan data "tglkembali" pada tbpeminjaman)
+    c.) SELECT * FROM `tbpenerbit` telepon;
+      (Menampilkan data "telepon" pada tbpenerbit)
+    d.) SELECT lamapinjam,tipekoleksi,idtipekoleksi FROM tbtipekoleksi;
+      (Menampilkan data "tipekoleksi,idtipekoleksi," pada tbtipekoleksi)
+    e.) SELECT tgllahir,alamat,idanggota,jk FROM tbanggota;
+      (Menampilkan data " tgllahir,alamat,idanggota" pada tbanggota)
+
+3.) Delete fungsinya untuk menghapus data.
+
+    a.) DELETE FROM tbkoleksi where dendaperhari='5';
+      (Menghapus data "dendaperhari" pada tbkoleksi)
+    b.) DELETE FROM tbpeminjaman where tglkembali='17';
+      (Menghapus Data "dendaperhari" pada tbpeminjaman)
+    c.) DELETE FROM tbpengarang where nama='nisaulfitri';
+      (Menghapus data "nama" pada tbpengarang)
+    d.) DELETE FROM tbanggota where jk='p';
+      (Menghapus data "jk" pada tbanggota)
+    e.) DELETE FROM tbanggota where 'judul'='maling kundang';
+      (Menghapus data "judul" pada tbanggota.
+
+
+

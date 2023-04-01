@@ -1,0 +1,24 @@
+e.Menyertakan nama table,alias tabel
+select tbanggota.nama,tbanggota.alamat FROM tbanggota;
+select A.nama,A.alamat FROM tbanggota A; 
+select A.nama,j.jenisanggota FROM tbanggota A,tbjenisanggota j;
+
+
+select * FROM tbanggota WHERE JK='P';
+select * FROM tbanggota WHERE year(tgllahir)>2003;
+select * FROM tbanggota WHERE JK ="p" AND month(tgllahir)=1
+SELECT * FROM tbpeminjaman WHERE tglkembali IS NULL
+
+
+SELECT * FROM tbanggota WHERE  nama LIKE "N%"
+SELECT * FROM tbanggota WHERE nama LIKE "_a%"
+SELECT * FROM tbkoleksi WHERE  judul LIKE "%pemograman%"
+
+
+SELECT * FROM tbkoleksi WHERE idtipekoleksi IN(1,2);
+SELECT * FROM tbanggota WHERE idjenisanggota NOT IN (2,3);
+SELECT * FROM tbanggota WHERE idanggota NOT IN (SELECT DISTINCT idanggota FROM tbpeminjaman);
+SELECT * FROM tbkoleksi WHERE idkoleksi IN(SELECT idkoleksi FROM tbpeminjaman WHERE Tglkembali is NULL);
+
+
+

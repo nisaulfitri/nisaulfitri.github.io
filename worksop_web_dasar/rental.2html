@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>eksternal css</title>
+  <link rel="stylesheet" type="text/css" href="Post Test.css">
+ </head>
+ <body>
+ <table>
+ <tr>
+  <td><img src="ford.jpg"><p>FORD Fiesta</p></td>
+  <td><img src="hyundai.jpg"><p>HYUNDAI i20 Coupe</p></td>
+  <td><img src="volkswagen.jpg"><p>VOLKSWAGEN Polo</p></td>
+ </tr>
+ </table>
+ </body>
+</html>

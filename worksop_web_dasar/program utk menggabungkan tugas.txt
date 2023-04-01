@@ -1,0 +1,74 @@
+ASUS@LAPTOP-EP69SLKN MINGW64 ~ (master)
+$ git clone ^[[200~https://github.com/rafli4514/jasa-rental-mobil.github.io.git~
+Cloning into 'jasa-rental-mobil.github.io.git~'...
+fatal: protocol '?[200~https' is not supported
+
+ASUS@LAPTOP-EP69SLKN MINGW64 ~ (master)
+$ git clone https://github.com/rafli4514/jasa-rental-mobil.github.io.git~
+Cloning into 'jasa-rental-mobil.github.io.git~'...
+remote: Repository not found.
+fatal: repository 'https://github.com/rafli4514/jasa-rental-mobil.github.io.git~/' not found
+
+ASUS@LAPTOP-EP69SLKN MINGW64 ~ (master)
+$ git clone https://github.com/rafli4514/jasa-rental-mobil.github.io.git
+Cloning into 'jasa-rental-mobil.github.io'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+ASUS@LAPTOP-EP69SLKN MINGW64 ~ (master)
+$ git branch -a
+
+ASUS@LAPTOP-EP69SLKN MINGW64 ~ (master)
+$ ls
+ AppData/             Music/                                                                                         Recent@         jasa-rental-mobil.github.io/
+'Application Data'@  'My Documents'@                                                                                'Saved Games'/   mysql
+ Contacts/            NTUSER.DAT                                                                                     Searches/       ntuser.dat.LOG1
+ Cookies@             NTUSER.DAT{8424807d-e78d-11ec-b65c-4851c5ab32df}.TM.blf                                        SendTo@         ntuser.dat.LOG2
+ Desktop/             NTUSER.DAT{8424807d-e78d-11ec-b65c-4851c5ab32df}.TMContainer00000000000000000001.regtrans-ms  'Start Menu'@    ntuser.ini
+ Documents/           NTUSER.DAT{8424807d-e78d-11ec-b65c-4851c5ab32df}.TMContainer00000000000000000002.regtrans-ms   Templates@      python
+ Downloads/           NetHood@                                                                                       Videos/         worksop_web_dasar/
+ Favorites/           OneDrive/                                                                                      cd
+ Links/               Pictures/                                                                                      dev/
+'Local Settings'@     PrintHood@                                                                                     digitalcv/
+
+ASUS@LAPTOP-EP69SLKN MINGW64 ~ (master)
+$ cd jasa-rental-mobil.github.io/
+
+ASUS@LAPTOP-EP69SLKN MINGW64 ~/jasa-rental-mobil.github.io (main)
+$ git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+ASUS@LAPTOP-EP69SLKN MINGW64 ~/jasa-rental-mobil.github.io (main)
+$ ls
+README.md
+
+ASUS@LAPTOP-EP69SLKN MINGW64 ~/jasa-rental-mobil.github.io (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ASUS@LAPTOP-EP69SLKN MINGW64 ~/jasa-rental-mobil.github.io (main)
+$ git checkout -b nisa
+Switched to a new branch 'nisa'
+
+ASUS@LAPTOP-EP69SLKN MINGW64 ~/jasa-rental-mobil.github.io (nisa)
+$ code .
+
+ASUS@LAPTOP-EP69SLKN MINGW64 ~/jasa-rental-mobil.github.io (nisa)
+$ git push origin nisa
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'nisa' on GitHub by visiting:
+remote:      https://github.com/rafli4514/jasa-rental-mobil.github.io/pull/new/nisa
+remote:
+To https://github.com/rafli4514/jasa-rental-mobil.github.io.git
+ * [new branch]      nisa -> nisa
+
+ASUS@LAPTOP-EP69SLKN MINGW64 ~/jasa-rental-mobil.github.io (nisa)
+$
